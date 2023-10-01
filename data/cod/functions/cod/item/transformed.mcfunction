@@ -1,0 +1,2 @@
+function cod:cod/title
+tellraw @s [{"text": " - "},{"text": "[成书回退成书与笔]","bold": true,"color": "yellow","clickEvent": {"action": "run_command","value": "/function cod:cod/item/writable_book/transformed"}}]

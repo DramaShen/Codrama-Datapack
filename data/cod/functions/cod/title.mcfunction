@@ -1,0 +1,1 @@
+tellraw @s [{"text": "=====","bold": true,"color": "yellow"},{"text": "  Codrama  ","color": "white"},{"nbt":"version","storage":"cod:main","bold": false,"color":"green"},{"text": "  ====="}]
