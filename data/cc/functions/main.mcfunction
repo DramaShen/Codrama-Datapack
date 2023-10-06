@@ -3,6 +3,7 @@ function cc:title
 tellraw @s [{"text": " - "},{"text": "[工具箱]","color": "light_purple","bold": true,"clickEvent": {"action": "run_command","value": "/function cc:tools"}}]
 tellraw @s [{"text": " - "},{"text": "[路径列表]","color": "light_purple","bold": true,"clickEvent": {"action": "run_command","value": "/function cc:edit/path/list"}}]
 tellraw @s [{"text": " - "},{"text": "[CC设置]","color": "light_purple","bold": true,"clickEvent": {"action": "run_command","value": "/function cc:setting/main"}}]
+function cod:cod/back
 #tellraw @s {"text": "[编辑选定的路径]","color": "gold","clickEvent": {"action": "run_command","value": "/function npc:menu/choose_template"}}
 
 #tellraw @s {"text": "\n[基础设置]","color": "gold","clickEvent": {"action": "run_command","value": "/function npc:menu/system"}}

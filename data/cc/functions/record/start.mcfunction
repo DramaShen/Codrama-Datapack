@@ -1,4 +1,4 @@
-tellraw @s [{"text": ""},{"nbt":"ccp","storage": "cc:load","interpret": true},{"text": "开始录制"}]
+tellraw @s [{"text": ""},{"nbt":"repo","storage": "cc:load","interpret": true},{"text": "开始录制！"}]
 tag @s add cod_loop
 tag @s add cc_saver
 #data remove storage cod:cc

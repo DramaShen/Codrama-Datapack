@@ -1,1 +1,1 @@
-give @s carrot_on_a_stick{display:{Name:'{"text": "COD stick","bold": true,"italic": false}'},cod:1,select:1,Enchantments:[{}],Unbreakable:1b}
+give @s carrot_on_a_stick{display:{Name:'{"text": "COD Stick","bold": true,"italic": false}'},cod:1,select:1,Enchantments:[{}],Unbreakable:1b}

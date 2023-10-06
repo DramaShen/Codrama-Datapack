@@ -1,0 +1,3 @@
+function cod:cod/title
+tellraw @s [{"text": " - "},{"text": "[菜单优化]：","bold": true,"color": "yellow"},{"text": "  [开]","bold": false,"color": "green","clickEvent": {"action": "run_command","value":"/scoreboard players set bettermenu cod_system 1"}},{"text": "  [关]","bold": false,"color": "red","clickEvent": {"action": "run_command","value":"/scoreboard players set bettermenu cod_system 0"}}]
+function cod:cod/back
