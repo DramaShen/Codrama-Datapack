@@ -1,2 +1,3 @@
+
+execute as @e[sort=nearest,limit=1,tag=cc_path] if entity @s[tag=!cod_loop] run data modify entity @s data.report set from entity @s data.raw_text.text
 tag @e[sort=nearest,limit=1,tag=cc_path] add cod_loop
-data modify entity @e[sort=nearest,limit=1,tag=cc_path] data.report set from entity @e[sort=nearest,limit=1,tag=cc_path] data.raw_text.text

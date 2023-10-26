@@ -1,3 +1,4 @@
 function cod:cod/title
 tellraw @s [{"text": " - "},{"text": "[菜单优化]：","bold": true,"color": "yellow"},{"text": "  [开]","bold": false,"color": "green","clickEvent": {"action": "run_command","value":"/scoreboard players set bettermenu cod_system 1"}},{"text": "  [关]","bold": false,"color": "red","clickEvent": {"action": "run_command","value":"/scoreboard players set bettermenu cod_system 0"}}]
+tellraw @s [{"text": "[刷新] ","color": "green","clickEvent": {"action":"run_command","value": "/function cod:cod/setting/load"}},{"text": "[保存设置] ","color": "green","clickEvent": {"action":"run_command","value": "/function cod:cod/setting/save"}},{"text": "[重置设置] ","color": "green","clickEvent": {"action":"run_command","value": "/function cod:cod/setting/reset"}}]
 function cod:cod/back
