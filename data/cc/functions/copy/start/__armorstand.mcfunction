@@ -1,0 +1,1 @@
+data modify entity @s ArmorItems[0].tag.cc.report set from entity @s ArmorItems[0].tag.cc.raw_text.text

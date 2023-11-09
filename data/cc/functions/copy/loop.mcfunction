@@ -1,10 +1,7 @@
-data modify entity @s Pos set from entity @s data.path[0].Pos
-data modify entity @s Rotation set from entity @s data.path[0].Rotation
+
+execute if entity @s[type=armor_stand] run function cc:copy/path_armorstand
+execute if entity @s[type=marker] run function cc:copy/path_marker
 
 tp @e[sort=nearest,limit=1,tag=cc_follower] ^ ^ ^ ~ ~
 
-data modify entity @s data.path append from entity @s data.path[0]
-data remove entity @s data.path[0]
 
-execute if data entity @s data.path[0].report run function cc:copy/report
-execute if data entity @s data.path[0].end run tag @s remove cod_loop
