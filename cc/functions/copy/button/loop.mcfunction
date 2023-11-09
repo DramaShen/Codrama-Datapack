@@ -1,1 +1,0 @@
-execute if data entity @s interaction.player run function cc:copy/button/target
