@@ -1,0 +1,2 @@
+data modify entity @e[sort=nearest,limit=1,tag=cc_path_to_item] Item.tag set from entity @s ArmorItems[0].tag
+data modify entity @e[sort=nearest,limit=1,tag=cc_path_to_item] Item.tag.display.Name set from entity @s CustomName

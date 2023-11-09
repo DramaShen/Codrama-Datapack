@@ -1,0 +1,1 @@
+tellraw @s [{"text": "=====  ","bold": true,"color": "dark_purple"},{"nbt":"ccp","storage": "cc:load","interpret": true},{"text": "  ====="}]

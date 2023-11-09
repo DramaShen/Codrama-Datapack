@@ -1,0 +1,1 @@
+data merge entity @s {Tags:[block_center]}
