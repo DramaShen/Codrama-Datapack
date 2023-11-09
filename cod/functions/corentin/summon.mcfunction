@@ -1,1 +1,0 @@
-summon item ~ ~ ~ {Age:-32768,Invulnerable:1b,CustomName:'{"text": "CORENTIN","color": "gray"}',PickupDelay:32767,Tags:[corentin],Item:{id:"minecraft:ender_eye",Count:1},NoGravity:1b}

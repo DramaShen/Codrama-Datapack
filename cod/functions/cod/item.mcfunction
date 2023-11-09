@@ -1,1 +1,0 @@
-give @s carrot_on_a_stick{display:{Name:'{"text": "COD Stick","bold": true,"italic": false}',Lore:['{"text": "Codrama数据包核心物品","italic": false}']},cod:1,select:1,Enchantments:[{}],Unbreakable:1b}
