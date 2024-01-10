@@ -1,0 +1,4 @@
+tellraw @s [{"text": "=====","bold": true,"color": "yellow"},{"text": "  玩家数值  ","color": "white"},{"text": "=====","bold": true,"color": "yellow"}]
+tellraw @s [{"text": " - "},{"text": "[血量上限]：","bold": true,"color": "blue"},{"text":"[自定义]","bold": false,"color": "aqua","clickEvent": {"action":"suggest_command","value": "/attribute @s generic.max_health base set “自定义”}}]
+tellraw @s [{"text": " - "},{"text": "[盔甲值]：","bold": true,"color": "blue"},{"text":"[自定义]","bold": false,"color": "aqua","clickEvent": {"action":"suggest_command","value": "/attribute @s generic.armor base set “自定义”}}]
+tellraw @s [{"text": " - "},{"text": "[盔甲韧性]：","bold": true,"color": "blue"},{"text":"[自定义]","bold": false,"color": "aqua","clickEvent": {"action":"suggest_command","value": "/attribute @s generic.armor_toughness base set “自定义”}}]

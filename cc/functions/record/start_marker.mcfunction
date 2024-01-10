@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {Tags:[cc_un_path],data:{path:[],raw_text:{text:[],type:""},report:[]},CustomName:'{"text": "MARKER.PATH","bold": true,"color": "light_purple"}'}

@@ -1,0 +1,1 @@
+data modify entity @s data.report set from entity @s data.raw_text.text
