@@ -8,5 +8,7 @@ kill @e[tag=cc_un_path]
 execute if data storage cc:load raw_text.type run data modify storage cc:load report set from storage cc:load raw_text.text
 
 execute if score cc_armorstand_path cod_system = 1 cod_system run function cc:record/start_armorstand
-
 execute unless score cc_armorstand_path cod_system = 1 cod_system run function cc:record/start_marker
+tp @e[sort=nearest,limit=1,tag=cc_un_path] ^ ^ ^ ~ ~
+
+execute if entity @e[tag=cc_unlocked_scene] as @e[tag=cc_unlocked_scene,sort=nearest,limit=1] run function cc:edit/scene/start

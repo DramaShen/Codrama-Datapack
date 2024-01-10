@@ -6,5 +6,6 @@ tellraw @s [{"text": " - "},{"text": "[位置]：","bold": true,"color": "blue"}
 tellraw @s [{"text": " - "},{"text": "[常规设置]","bold": true,"color": "yellow","clickEvent": {"action":"run_command","value": "/function cod:cod/entity/common"}}]
 tellraw @s [{"text": " - "},{"text": "[数值设置]","bold": true,"color": "yellow","clickEvent": {"action":"run_command","value": "/function cod:cod/entity/attribute/main"}}]
 execute if entity @e[limit=1,tag=cod_select,tag=cc_path] run tellraw @s [{"text": " - "},{"text": "[CC-路径编辑]","bold": true,"color": "light_purple","clickEvent": {"action":"run_command","value": "/function cc:edit/path/main"}}]
+execute if entity @e[limit=1,tag=cod_select,tag=cc_scene] run tellraw @s [{"text": " - "},{"text": "[CC-场景编辑]","bold": true,"color": "light_purple","clickEvent": {"action":"run_command","value": "/function cc:edit/scene/main"}}]
 tellraw @s [{"text": " - "},{"text": "[清除]","bold": true,"color": "red","clickEvent": {"action":"run_command","value": "/kill @e[limit=1,tag=cod_select]"}}]
 function cod:cod/back

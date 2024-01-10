@@ -4,9 +4,12 @@
 #data remove entity @s data.report[0]
 
 execute if data storage cc:load raw_text.able run tellraw @s {"nbt": "report[0]","storage": "cc:load"}
-execute if data storage cc:load raw_text.able run tellraw @s [{"text": " - "},{"text": ">>>下行： ","color": "green"},{"nbt":"report[1]","storage": "cc:load"}]
+#execute if data storage cc:load raw_text.able run tellraw @s [{"text": " - "},{"text": ">>>下行： ","color": "green"},{"nbt":"report[1]","storage": "cc:load"}]
+execute if data storage cc:load raw_text.able run title @s actionbar [{"text": " - "},{"text": ">>>下行： ","color": "green"},{"nbt":"report[1]","storage": "cc:load"}]
+
 execute if data storage cc:load raw_text.en run tellraw @s {"nbt": "report[0]","storage": "cc:load","interpret": true}
-execute if data storage cc:load raw_text.en run tellraw @s [{"text": " - "},{"text": ">>>下行： ","color": "green"},{"nbt":"report[1]","storage": "cc:load","interpret": true}]
+#execute if data storage cc:load raw_text.en run tellraw @s [{"text": " - "},{"text": ">>>下行： ","color": "green"},{"nbt":"report[1]","storage": "cc:load","interpret": true}]
+execute if data storage cc:load raw_text.en run title @s actionbar [{"text": " - "},{"text": ">>>下行： ","color": "green"},{"nbt":"report[1]","storage": "cc:load","interpret": true}]
 
 data modify storage cc:load report append from storage cc:load report[0]
 data remove storage cc:load report[0]
