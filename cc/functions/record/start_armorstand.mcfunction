@@ -1,1 +1,0 @@
-summon armor_stand ~ ~ ~ {Tags:[cc_un_path],Marker:1b,Invisible:1b,ArmorItems:[{id:"minecraft:chest_minecart",Count:1b,tag:{Enchantments:[{}]}},{},{},{}],CustomName:'{"text": "ARMOR-STAND.PATH","bold": true,"color": "light_purple"}'}

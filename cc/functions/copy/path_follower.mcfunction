@@ -1,1 +1,0 @@
-execute as @e[tag=cc_follower] if score @s cod_id = @e[sort=nearest,limit=1,tag=cc_path] cod_id run tp @s ^ ^ ^ ~ ~

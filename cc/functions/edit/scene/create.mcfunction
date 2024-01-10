@@ -1,2 +1,0 @@
-summon armor_stand ~ ~ ~ {Tags:[cc_scene,cc_unlocked_scene],CustomName:'{"text": "SCENE","bold": true,"color": "light_purple"}',Invisible:1b}
-execute as @e[tag=cc_scene,sort=nearest,limit=1] run function cod:cod/ray/select
