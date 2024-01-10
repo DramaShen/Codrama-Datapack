@@ -1,2 +1,0 @@
-summon armor_stand ~ ~ ~ {CustomName:'{"text": "COD Ray","bold": true}',Invisible:1b,Marker:1b,Tags:[cod_loop,cod_ray,cod_unselectable],PortalCooldown:25}
-tp @e[tag=cod_ray,sort=nearest,limit=1] ^ ^ ^ ~ ~
